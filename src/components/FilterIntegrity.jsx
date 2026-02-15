@@ -29,7 +29,7 @@ export default function FilterIntegrity() {
             className="relative rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-slate-50 bg-slate-100"
           >
             <img 
-              src="./images/bpt.jpeg" 
+              src="images/bpt.jpeg" 
               alt="Filter Integrity Testing Equipment" 
               className="w-full h-auto object-cover"
             />

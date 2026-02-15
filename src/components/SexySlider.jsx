@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 const slides = [
-  { img: "./images/banner1.jpg", title: "Advanced", subtitle: "Separation Systems" },
-  { img: "./images/banner2.jpg", title: "Precision", subtitle: "Engineering Hub" },
-  { img: "./images/banner3.jpg", title: "Global", subtitle: "Compliance Standards" }
+  { img: "images/banner1.jpg", title: "Advanced", subtitle: "Separation Systems" },
+  { img: "images/banner2.jpg", title: "Precision", subtitle: "Engineering Hub" },
+  { img: "images/banner3.jpg", title: "Global", subtitle: "Compliance Standards" }
 ];
 
 export default function SexySlider() {
