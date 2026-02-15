@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-[#f8fafc] text-slate-950 antialiased overflow-x-hidden;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Senior Dev UI Kit */
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.industrial-grid {
+  background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px #e2e8f0;
+  color: transparent;
+}
+
+/* Smooth Slider */
+.slider-container { width: 100%; overflow: hidden; }
+.slider { display: flex; animation: slide 20s infinite linear; }
+.slider img {
+  width: 100vw;
+  height: 600px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-100vw); }
+  50% { transform: translateX(-200vw); }
+  75% { transform: translateX(-300vw); }
+  100% { transform: translateX(0); }
+}
+
+@media (max-width: 768px) {
+  .slider img { height: 400px; }
+}
