@@ -4,15 +4,15 @@ import { ArrowUpRight, ShieldCheck, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const productList = [
-  { name: "Filter Strainers", img: "/images/SinteredFilter.jpg", type: "Ultra-Wide", tag: "Heavy Duty" },
-  { name: "Process Vessels", img: "/images/process vessels.png", type: "Vertical", tag: "ASME Std" },
-  { name: "Catalyst Recovery", img: "/images/catalyst recovery.png", type: "Horizontal", tag: "High Yield" },
-  { name: "Filtration Skids", img: "/images/filter sked.png", type: "Horizontal", tag: "Turnkey" },
-  { name: "Single Use System", img: "/images/single use.png", type: "Horizontal", tag: "Sterile" },
-  { name: "Nutsche Filters", img: "/images/nustuch filter.png", type: "Square", tag: "Precise" },
-  { name: "Turnkey Projects", img: "/images/stainless-steel-turnkey-project.jpg", type: "General", tag: "End-to-End" },
-  { name: "PTFE Filter Cartridge", img: "/images/filter catridge.png", type: "Vertical", tag: "Chemical Res." },
-  { name: "Capsule Filters", img: "/images/capsule.png", type: "Vertical", tag: "Fast Flow" },
+  { name: "Filter Strainers", img: "./images/SinteredFilter.jpg", type: "Ultra-Wide", tag: "Heavy Duty" },
+  { name: "Process Vessels", img: "./images/process vessels.png", type: "Vertical", tag: "ASME Std" },
+  { name: "Catalyst Recovery", img: "./images/catalyst recovery.png", type: "Horizontal", tag: "High Yield" },
+  { name: "Filtration Skids", img: "./images/filter sked.png", type: "Horizontal", tag: "Turnkey" },
+  { name: "Single Use System", img: "./images/single use.png", type: "Horizontal", tag: "Sterile" },
+  { name: "Nutsche Filters", img: "./images/nustuch filter.png", type: "Square", tag: "Precise" },
+  { name: "Turnkey Projects", img: "./images/stainless-steel-turnkey-project.jpg", type: "General", tag: "End-to-End" },
+  { name: "PTFE Filter Cartridge", img: "./images/filter catridge.png", type: "Vertical", tag: "Chemical Res." },
+  { name: "Capsule Filters", img: "./images/capsule.png", type: "Vertical", tag: "Fast Flow" },
 ];
 
 export default function Products() {

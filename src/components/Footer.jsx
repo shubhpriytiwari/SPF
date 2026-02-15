@@ -14,7 +14,7 @@ export default function Footer() {
           {/* 1. Brand Logo & Name */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-white rounded-lg p-1.5 flex-shrink-0">
-              <img src="/SPF/images/SPF LOGO.png" alt="SPF Logo" className="w-full h-full object-contain" />
+              <img src="./images/SPF LOGO.png" alt="SPF Logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <h2 className="text-lg font-black tracking-tighter leading-none">SPF</h2>
