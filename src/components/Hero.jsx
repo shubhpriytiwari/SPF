@@ -73,7 +73,7 @@ export default function Hero() {
           {/* Main Logo Container */}
           <div className="relative z-10 w-full max-w-[450px] aspect-square bg-white rounded-[4rem] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] flex items-center justify-center p-16 border-[16px] border-slate-50">
             <img 
-              src="/images/SPF LOGO.png" 
+              src="/SPF/images/SPF LOGO.png" 
               alt="SPF Technologies Logo" 
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500" 
             />

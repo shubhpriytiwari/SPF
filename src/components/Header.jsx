@@ -32,7 +32,7 @@ export default function Header() {
         {/* Logo & Name Reverted */}
         <Link to="/" className="flex items-center gap-4">
           <div className="w-14 h-14 md:w-16 md:h-16 bg-white rounded-full shadow-lg border border-slate-100 flex items-center justify-center overflow-hidden">
-            <img src="/images/SPF LOGO.png" className="w-[85%] h-[85%] object-contain" alt="SPF Logo" />
+            <img src="/SPF/images/SPF LOGO.png" className="w-[85%] h-[85%] object-contain" alt="SPF Logo" />
           </div>
           <h1 className="text-xl md:text-2xl font-black text-red-600 tracking-tighter">
             SPF <span className="text-slate-900">Technologies</span>
